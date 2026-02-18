@@ -1,6 +1,6 @@
 ---
 name: springboot-best-practices
-description: Use when designing or implementing Spring Boot 3.x applications — applies best practices for layered architecture, REST API controllers, DTOs, exception handling, Spring Data JPA, and repository patterns. Use when asked to "design a Spring Boot app", "review Spring Boot code", "implement REST API with Spring Boot", or "set up JPA repositories".
+description: Use when designing or implementing Spring Boot 3.x applications, asked to "design a Spring Boot app", "review Spring Boot code", "implement REST API with Spring Boot", "set up JPA repositories", or when implementing layered architecture, DTOs, exception handling, or Spring Data JPA.
 ---
 
 # Spring Boot 3.x ベストプラクティス
