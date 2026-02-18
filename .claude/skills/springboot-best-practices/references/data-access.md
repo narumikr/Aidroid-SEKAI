@@ -9,6 +9,7 @@
 @Table(name = "users")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)  // JPA要件: 引数なしコンストラクタ
+@EntityListeners(AuditingEntityListener.class)       // @CreatedDate/@LastModifiedDate を有効化
 public class User {
 
     @Id
