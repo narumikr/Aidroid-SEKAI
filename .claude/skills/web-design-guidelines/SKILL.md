@@ -1,39 +1,39 @@
 ---
 name: web-design-guidelines
-description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
+description: UIコードをWebインターフェースガイドラインへの準拠についてレビューする。「UIをレビューして」「アクセシビリティをチェックして」「デザインを監査して」「UXをレビューして」「ベストプラクティスに照らしてサイトを確認して」と依頼された時に使用する。
 metadata:
   author: vercel
   version: "1.0.0"
   argument-hint: <file-or-pattern>
 ---
 
-# Web Interface Guidelines
+# Webインターフェースガイドライン
 
-Review files for compliance with Web Interface Guidelines.
+Webインターフェースガイドラインへの準拠についてファイルをレビューする。
 
-## How It Works
+## 動作方法
 
-1. Fetch the latest guidelines from the source URL below
-2. Read the specified files (or prompt user for files/pattern)
-3. Check against all rules in the fetched guidelines
-4. Output findings in the terse `file:line` format
+1. 以下のソースURLから最新のガイドラインを取得する
+2. 指定されたファイルを読み込む（ファイルまたはパターンが未指定の場合はユーザーに確認する）
+3. 取得したガイドラインのすべてのルールに照らして確認する
+4. 簡潔な `file:line` 形式で結果を出力する
 
-## Guidelines Source
+## ガイドラインのソース
 
-Fetch fresh guidelines before each review:
+レビューの前に毎回最新のガイドラインを取得する:
 
 ```
 https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md
 ```
 
-Use WebFetch to retrieve the latest rules. The fetched content contains all the rules and output format instructions.
+WebFetchを使用して最新のルールを取得する。取得したコンテンツにはすべてのルールと出力形式の指示が含まれている。
 
-## Usage
+## 使用方法
 
-When a user provides a file or pattern argument:
-1. Fetch guidelines from the source URL above
-2. Read the specified files
-3. Apply all rules from the fetched guidelines
-4. Output findings using the format specified in the guidelines
+ユーザーがファイルまたはパターンの引数を指定した場合:
+1. 上記のソースURLからガイドラインを取得する
+2. 指定されたファイルを読み込む
+3. 取得したガイドラインのすべてのルールを適用する
+4. ガイドラインで指定された形式を使用して結果を出力する
 
-If no files specified, ask the user which files to review.
+ファイルが指定されていない場合は、どのファイルをレビューするかユーザーに尋ねる。
