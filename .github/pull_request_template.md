@@ -37,7 +37,9 @@
 - [ ] 機密情報(APIKey,パスワード等)をコミットしていないか
 - [ ] 不要なコメント・デバッグコードは削除したか
 - [ ] Breaking changeがないか
-- [ ] ドキュメントの更新を行ったか
+- [ ] 仕様の変更があった際には以下を実施したか
+  - [ ] ドキュメントのメンテナンスを行ったか
+  - [ ] 単体テスト、結合テストのメンテナスを行ったか
 
 ## 🍜 やっていないこと 💧
 
@@ -53,11 +55,11 @@
 
 ## 🎀 レビュワーへの注意点・相談内容・懸念点 🌸
 
--
+- 
 
 ## 🎵 備考 💚 Y(_ﾟ□ﾟ_) < (あれば)
 
 <!-- 何かあれば備忘のためにも -->
 
-![PR-Foorter](https://capsule-render.vercel.app/api?type=slice&height=39&color=0:33ccba,100:33aaee&section=footer&reversal=false)
+![PR-Footer](https://capsule-render.vercel.app/api?type=slice&height=39&color=0:33ccba,100:33aaee&section=footer&reversal=false)
 <!-- prettier-ignore-end -->

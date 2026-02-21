@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(pwd:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(git:diff*)",
+      "Bash(git:rev-parse*)",
+      "Bash(git:status*)",
+      "Bash(node:-v)",
+      "Bash(python:--version)",
+      "Bash(pnpm:list*)",
+      "Bash(uv:--version)",
+      "Bash(uv:tree*)",
+      "Bash(uv:pip:list*)",
+      "Bash(uv:pip:show*)",
+      "Bash(uv:run:--help*)"
+    ]
+  }
+}
