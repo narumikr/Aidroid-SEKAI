@@ -9,7 +9,7 @@ tags: bundle, dynamic-import, code-splitting, next-dynamic
 
 初期レンダリングに不要な大きなコンポーネントを遅延読み込みするために`next/dynamic`を使用します。
 
-**誤り（MonacoがメインチャンクとともにバンドルされてしまうF〜300KB）：**
+**誤り（Monacoがメインチャンクとともにバンドルされてしまう〜300KB）：**
 
 ```tsx
 import { MonacoEditor } from './monaco-editor'
